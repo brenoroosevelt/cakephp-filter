@@ -1,5 +1,5 @@
 {
-    "name": "brenoroosevelt/BRFilter",
+    "name": "brenoroosevelt/cakephp-filter",
     "description": "BRFilter plugin for CakePHP 3.x",
     "type": "cakephp-plugin",
     "require": {

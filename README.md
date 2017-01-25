@@ -74,9 +74,9 @@ You have to add a form to your index.ctp, corresponding with the alias of your f
 
 The following options are supported:
 
-- `field` (`string`, The name of the field to use for searching.
-- `operator` (`string`, The operator used for searching.
-- `explode` (`boolean`, Used only with operator `LIKE` and `ILIKE` to explode the string query.
+- `field` (`string`) The name of the field to use for searching.
+- `operator` (`string`) The operator used for searching.
+- `explode` (`boolean`) Used only with operator `LIKE` and `ILIKE` to explode the string query.
 
 
 ### Operators

@@ -44,7 +44,7 @@ public function index()
     	$this->paginate['conditions']	= $conditions;
     	
     	// get pagination 
-    	$this->set('posts', $this->paginate($this->Post));
+    	$this->set('posts', $this->paginate($this->Posts));
     	
     	// ...
     	

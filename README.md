@@ -29,9 +29,9 @@ public function index()
 		
 		// add filter and options
 		$this->Filter->addFilter([
-					'filter_id' => ['field' => 'Post.id', 'operator'=>'='],
-					'filter_title' => ['field' => 'Post.title', 'operator' => 'LIKE', 'explode' => 'true'],
-					'filter_category_id' => ['field'=> 'Post.category_id', 'operator' => 'IN' ] 
+					'filter_id' => ['field' => 'Posts.id', 'operator'=>'='],
+					'filter_title' => ['field' => 'Posts.title', 'operator' => 'LIKE', 'explode' => 'true'],
+					'filter_category_id' => ['field'=> 'Posts.category_id', 'operator' => 'IN' ] 
 		]);
 		
 		// get conditions

@@ -3,7 +3,8 @@
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](README.md)
 [![Total Downloads](https://img.shields.io/packagist/dt/brenoroosevelt/cakephp-filter.svg?style=flat-square)](https://packagist.org/packages/brenoroosevelt/cakephp-filter)
 [![Latest Stable Version](https://img.shields.io/packagist/v/brenoroosevelt/cakephp-filter.svg?style=flat-square&label=stable)](https://packagist.org/packages/brenoroosevelt/cakephp-filter)
-
+[![Build Status](https://img.shields.io/travis/brenoroosevelt/cakephp-filter/master.svg?style=flat-square)](https://travis-ci.org/brenoroosevelt/cakephp-filter)
+[![Coverage Status](https://img.shields.io/codecov/c/github/brenoroosevelt/cakephp-filter.svg?style=flat-square)](https://codecov.io/github/brenoroosevelt/cakephp-filter)
 
 ## Installation
 
@@ -29,7 +30,6 @@ Plugin::load('BRFilter');
 ```php
 public function index()
 {
-
 		$this->loadComponent('BRFilter.Filter');
 		
 		// add filter and options
@@ -52,7 +52,6 @@ public function index()
     	$this->set('posts', $this->paginate($this->Posts));
     	
     	// ...
-    	
 }
 ```
 

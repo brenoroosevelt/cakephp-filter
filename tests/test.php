@@ -24,5 +24,6 @@ class Test extends TestCase
         $this->theController = new Controller($request, $response);
         $this->plugin = new FilterComponent($this->theController->components());
         
+        
     }
 }

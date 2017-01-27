@@ -59,10 +59,6 @@ public function index()
 You have to add a form to your index.ctp, corresponding with the alias of your filter configuration.
 
 ```php
-    
-    // set url to paginator (it keeps filter applied when navigate)
-	$this->Paginator->options(['url' => $url]);
-    
 	echo $this->Form->create();
     
    	// Match with the filter configuration in your controller 

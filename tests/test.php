@@ -26,17 +26,30 @@ class Test extends TestCase
         
         $this->theController->loadComponent('BRFilter.Filter');
         
-        $this->theController->Filter->addFilter(
-            'filter_id' => ['field' => 'Posts.id', 'operator'=>'='],
-            'filter_title' => ['field' => 'Posts.title', 'operator' => 'LIKE', 'explode' => 'true'],
-            'filter_category_id' => ['field'=> 'Posts.category_id', 'operator' => 'IN' ]
-        );
-
+        $this->theController->Filter->addFilter([
+            'filter_id' => [
+                'field' => 'Posts.id',
+                'operator' => '='
+            ],
+            'filter_title' => [
+                'field' => 'Posts.title',
+                'operator' => 'LIKE',
+                'explode' => 'true'
+            ],
+            'filter_category_id' => [
+                'field' => 'Posts.category_id',
+                'operator' => 'IN'
+            ]
+        ]);
+        
         $this->theController->request->data = [
-            'filter_id'=> 1,
+            'filter_id' => 1,
             'filter_title' => 'test',
-            'filter_category_id'=> [1,2]
-        ]
+            'filter_category_id' => [
+                1,
+                2
+            ]
+        ];
         
         // get conditions
         $conditions = $this->theController->Filter->getConditions([

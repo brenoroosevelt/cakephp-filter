@@ -36,24 +36,23 @@
         <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
       {% endif %}
     </header>
- <div style="display: flex;">
+
+    <main id="content" class="main-content" role="main">
+       <div style="display: flex;">
         <div style="width: 75%;">
-          coluna 1
-          <p>asdasdasd</p>
+            {{ content }}
         </div>
         <div style="width: 40%; margin-left: 1em;">
           coluna 2
           <p>asdasdasd</p>
         </div>
     </div>
-    <main id="content" class="main-content" role="main">
-      <h1>TESTE DE LAYOUT</h1>
       
      
 
      
       
-      {{ content }}
+    
 
       <footer class="site-footer">
         {% if site.github.is_project_page %}

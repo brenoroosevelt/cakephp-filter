@@ -1,6 +1,24 @@
 
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
+  <style>
+.mysidebar {
+  padding: 10px 16px;
+  background: #555;
+  color: #f1f1f1;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+</style>
+  
   <head>
 
     {% if site.google_analytics %}
@@ -36,15 +54,16 @@
         <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
       {% endif %}
     </header>
- <div style="width: 40%; margin-left: 1em; position: fixed; background: #eee;">
-          coluna 2
-          <p>asdasdasd</p>
-        </div>
+
     
     <main id="content" class="main-content" role="main" style="max-width:100%">
        <div style="display: flex;">
         <div style="width: 75%;">
             {{ content }}
+        </div>
+          <div id="mysidebar" class="mysidebar" style="width: 40%; margin-left: 1em; background: #eee;">
+          coluna 2
+          <p>asdasdasd</p>
         </div>
        
     </div>
@@ -53,7 +72,20 @@
 
      
       
-    
+    <script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("mysidebar");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
 
       <footer class="site-footer">
         {% if site.github.is_project_page %}

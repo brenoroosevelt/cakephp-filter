@@ -18,7 +18,7 @@
 <div id="navcontainer">
 <ul id="navlist">
 {% for item in site.data.menu.items %}
- <li id="active"><a href="#" id="current">{{item.title}}</a>
+ <li id="active"><a href="{{ item.url | relative_url }}" id="current">{{item.title}}</a>
   <ul id="subnavlist">
 {% for entry in item.subfolderitems %}
    <li><a href="{{ entry.url | relative_url }}">{{ entry.page }}</a></li>

@@ -14,7 +14,7 @@ items:
     subfolderitems:
       - page: Constructor Injection
         url: /widget1.html
-      - page: Property Injection (PHP8 Attributes)
+      - page: Property Injection
         url: /widget2.html
       - page: Setter Injection
         url: /widget3.html
@@ -34,6 +34,8 @@ items:
       - page: Callback
         url: /piece3.html
       - page: Iterate
+        url: /piece3.html
+      - page: Tags
         url: /piece3.html
 
   - title: Service Providers

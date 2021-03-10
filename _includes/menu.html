@@ -7,6 +7,11 @@
 <li><a href="#">Subitem three</a></li>
 <li><a href="#">Subitem four</a></li>
 </ul>
+</li>
+<li><a href="#">Item two</a></li>
+<li><a href="#">Item three</a></li>
+<li><a href="#">Item four</a></li>
+</ul>
  <ul id="navlist">
 <li id="active"><a href="#" id="current">Item one</a>
 <ul id="subnavlist">
@@ -15,7 +20,6 @@
 <li><a href="#">Subitem three</a></li>
 <li><a href="#">Subitem four</a></li>
 </ul>
-
 </li>
 <li><a href="#">Item two</a></li>
 <li><a href="#">Item three</a></li>
@@ -24,8 +28,9 @@
 </div>
 
 <div id="navcontainer">
-<ul id="navlist">
+
 {% for item in site.data.menu.items %}
+ <ul id="navlist">
  <li id="active"><a href="{{ item.url | relative_url }}" id="current">{{item.title}}</a>
   <ul id="subnavlist">
 {% for entry in item.subfolderitems %}
@@ -33,8 +38,9 @@
 {% endfor %}
   </ul>
  </li>
+   </ul>
 {% endfor %}
- </ul>
+
  </div>
 
 

@@ -1,12 +1,12 @@
 items:
-  - title: Group 1
+  - title: Introduction
     subfolderitems:
-      - page: Thing 1
+      - page: Getting Started
         url: /thing1.html
-      - page: Thing 2
-        url: /thing2.html
-      - page: Thing 3
-        url: /thing3.html
+      - page: Installation
+        url: /pages/installation.html
+      - page: Conteudo
+        url: '#content'
   - title: Group 2
     subfolderitems:
       - page: Piece 1

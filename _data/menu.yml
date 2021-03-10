@@ -1,4 +1,6 @@
 items:
+  - title: Geral
+    url: /pages/installation.html
   - title: Introduction
     url: /pages/installation.html
     subfolderitems:

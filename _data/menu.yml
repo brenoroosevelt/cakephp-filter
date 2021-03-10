@@ -5,8 +5,20 @@ items:
         url: /
       - page: Installation
         url: /pages/installation.html
-      - page: Conteudo
+      - page: Basic Usage
         url: '/pages/installation.html#content'
+      - page: Auto-wiring
+        url: '/pages/installation.html#content'
+        
+  - title: Dependency Injection
+    subfolderitems:
+      - page: Constructor Injection
+        url: /widget1.html
+      - page: Property Injection
+        url: /widget2.html
+      - page: Setter Injection
+        url: /widget3.html
+        
   - title: Definitions
     subfolderitems:
       - page: Raw values
@@ -15,12 +27,12 @@ items:
         url: /piece2.html
       - page: Callback
         url: /piece3.html
-  - title: Dependency Injection
+        
+  - title: Service Providers
     subfolderitems:
-      - page: Constructor Injection
+      - page: Creating Providers
         url: /widget1.html
-      - page: Property Injection (PHP8 attributes)
+      - page: Lazy Providers
         url: /widget2.html
-      - page: Setter Injection
-        url: /widget3.html
+  
 

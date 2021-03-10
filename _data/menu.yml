@@ -1,5 +1,6 @@
 items:
   - title: Introduction
+    - url: /pages/installation.html
     subfolderitems:
       - page: Getting Started
         url: /
@@ -13,6 +14,7 @@ items:
         url: '/pages/installation.html#content'
         
   - title: Dependency Injection
+    - url: /pages/installation.html
     subfolderitems:
       - page: Constructor Injection
         url: /widget1.html
@@ -22,6 +24,7 @@ items:
         url: /widget3.html
         
   - title: Definitions
+    - url: /pages/installation.html
     subfolderitems:
       - page: Raw values
         url: /piece1.html
@@ -41,6 +44,7 @@ items:
         url: /piece3.html
 
   - title: Service Providers
+    - url: /pages/installation.html
     subfolderitems:
       - page: Creating Providers
         url: /widget1.html
@@ -48,6 +52,7 @@ items:
         url: /widget2.html
   
   - title: Advanced
+    - url: /pages/installation.html
     subfolderitems:
       - page: Container Delegation 
         url: /widget1.html

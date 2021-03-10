@@ -6,7 +6,7 @@ items:
       - page: Installation
         url: /pages/installation.html
       - page: Conteudo
-        url: '#content'
+        url: '/pages/installation.html#content'
   - title: Group 2
     subfolderitems:
       - page: Piece 1

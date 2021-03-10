@@ -14,7 +14,7 @@ items:
     subfolderitems:
       - page: Constructor Injection
         url: /widget1.html
-      - page: Property Injection
+      - page: Property Injection (PHP8 Attributes)
         url: /widget2.html
       - page: Setter Injection
         url: /widget3.html
@@ -25,14 +25,29 @@ items:
         url: /piece1.html
       - page: Factories
         url: /piece2.html
+      - page: Closures
+        url: /piece2.html
+      - page: Aliases
+        url: /piece3.html
+      - page: Array
+        url: /piece3.html
       - page: Callback
         url: /piece3.html
-        
+      - page: Iterate
+        url: /piece3.html
+
   - title: Service Providers
     subfolderitems:
       - page: Creating Providers
         url: /widget1.html
       - page: Lazy Providers
+        url: /widget2.html
+  
+  - title: Compose & Delegate
+    subfolderitems:
+      - page: Delegate Container
+        url: /widget1.html
+      - page: Container Composite
         url: /widget2.html
   
 

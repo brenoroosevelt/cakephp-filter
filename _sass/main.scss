@@ -30,7 +30,7 @@ html {
 
 #navcontainer li
 {
-//   border-bottom: 1px solid #90bade;
+  border-bottom: 1px solid #324252;
   margin: 0;
 }
 
@@ -41,7 +41,7 @@ html {
 //   border-left: 10px solid #1958b7;
 //   border-right: 10px solid #508fc4;
 //   background-color: #2175bc;
-  background-color: #444;
+  background-color: #3e5165;
   color: #fff;
   text-decoration: none;
   width: 100%;
@@ -70,6 +70,7 @@ html>body #navcontainer li a { width: auto; }
 {
   display: block;
 //   padding: 5px 5px 5px 20px;
+  padding-left: 20px;
 //   border-left: 10px solid #1958b7;
 //   border-right: 10px solid #508fc4;
 //   background-color: #5ba3e0;

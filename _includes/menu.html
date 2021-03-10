@@ -1,4 +1,4 @@
-{% for item in site.data.menu.menu %}
+{% for item in site.data.menu.items %}
 <h3>{{item.title}}</h3>
 {% for entry in item.subfolderitems %}
  <a href="{{ entry.url | relative_url }}" {% if page.url == entry.url | relative_url %}class="current"{% endif %}>

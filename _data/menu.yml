@@ -47,7 +47,7 @@ items:
       - page: Lazy Providers
         url: /widget2.html
   
-  - title: Compose
+  - title: Advanced
     subfolderitems:
       - page: Container Delegation 
         url: /widget1.html

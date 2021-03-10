@@ -2,7 +2,7 @@ items:
   - title: Introduction
     subfolderitems:
       - page: Getting Started
-        url: /thing1.html
+        url: /
       - page: Installation
         url: /pages/installation.html
       - page: Conteudo

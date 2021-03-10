@@ -7,20 +7,20 @@ items:
         url: /pages/installation.html
       - page: Conteudo
         url: '/pages/installation.html#content'
-  - title: Group 2
+  - title: Definitions
     subfolderitems:
-      - page: Piece 1
+      - page: Raw values
         url: /piece1.html
-      - page: Piece 2
+      - page: Factories
         url: /piece2.html
-      - page: Piece 3
+      - page: Callback
         url: /piece3.html
-  - title: Group 3
+  - title: Dependency Injection
     subfolderitems:
-      - page: Widget 1
+      - page: Constructor Injection
         url: /widget1.html
-      - page: Widget 2
+      - page: Property Injection (PHP8 attributes)
         url: /widget2.html
-      - page: Widget 3
+      - page: Setter Injection
         url: /widget3.html
 
